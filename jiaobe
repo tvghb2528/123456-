@@ -1,5 +1,5 @@
 local plr = game.Players.LocalPlayer
-local char = plr.Character or plr.CharacterAdded:Wait()
+local Char=plr. Character或plr.CharacterAdded:Wait（）
 
 local bill = Instance.new("BillboardGui")
 bill.Parent = char.Head
@@ -10,22 +10,22 @@ local text = Instance.new("TextLabel")
 text.Parent = bill
 text.Size = UDim2.new(1,0,1,0)
 text.BackgroundTransparency = 1
-text.Text = "jsk是傻子天下大同牛逼666"
+Text. Text=“jsk牛逼 666”
 text.TextScaled = true
 text.Font = Enum.Font.Arcade
 
 -- 彩色闪字
-while true do
-    text.TextColor3 = Color3.new(1, 0, 0)
+当为真时执行
+text.TextColor3 = Color3.new(1, 0, 0)
     task.wait(0.1)
-    text.TextColor3 = Color3.new(1, 1, 0)
+text.TextColor3 = Color3.new(1, 1, 0)
     task.wait(0.1)
-    text.TextColor3 = Color3.new(0, 1, 0)
+text.TextColor3 = Color3.new(0, 1, 0)
     task.wait(0.1)
-    text.TextColor3 = Color3.new(0, 1, 1)
+text.TextColor3 = Color3.new(0, 1, 1)
     task.wait(0.1)
-    text.TextColor3 = Color3.new(0, 0, 1)
+text.TextColor3 = Color3.new(0, 0, 1)
     task.wait(0.1)
-    text.TextColor3 = Color3.new(1, 0, 1)
+text.TextColor3 = Color3.new(1, 0, 1)
     task.wait(0.1)
-end
+结束
